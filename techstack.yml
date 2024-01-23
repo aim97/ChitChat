@@ -1,0 +1,168 @@
+repo_name: aim97/ChitChat
+report_id: 9d51de3fea7dbf79106e0271d329a7c7
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T19:07:57+00:00'
+requested_by: aim97
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/aim97/ChitChat
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/server/package-lock.json
+  detection_source: Basics/server/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 4.6.2
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/server/package-lock.json
+  detection_source: Basics/client/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aim97/ChitChat
+  detection_source: Repo Metadata
+- name: Snowpack
+  description: The faster frontend build tool
+  website_url: https://www.snowpack.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21657/default_6d25db7b303e81b370f739f3ec38bf1d044091e0.jpg
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/client/package.json
+  detection_source: Basics/client/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/server/package-lock.json
+  detection_source: Basics/server/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/server/package.json
+  detection_source: Basics/server/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/server/package-lock.json
+  detection_source: Basics/server/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/server/package-lock.json
+  detection_source: Basics/server/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/server/package-lock.json
+  detection_source: Basics/server/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/server/package-lock.json
+  detection_source: Basics/server/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
+- name: socket.io-client
+  description: "[![Build Status]"
+  package_url: https://www.npmjs.com/socket.io-client
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16164/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/aim97/ChitChat/blob/main/Basics/client/package-lock.json
+  detection_source: Basics/client/package.json
+  last_updated_by: Mohamed Abdelmagid
+  last_updated_on: 2023-06-03 18:15:46.000000000 Z
